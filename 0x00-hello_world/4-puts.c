@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main entry
+ *  main entry
  *
- * Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  */
 
 int main(void)
