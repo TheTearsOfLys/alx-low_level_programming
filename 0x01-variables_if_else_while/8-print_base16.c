@@ -9,7 +9,7 @@
 int main(void)
 {
 	char digit;
-	char [] storeDigit;
+	char storeDigit[];
 
 	for (digit = '0'; digit <= 9; digit++)
 		storeDigit [digit] = digit;
