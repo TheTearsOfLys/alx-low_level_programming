@@ -9,15 +9,18 @@
 int main(void)
 {
 	char digit;
-	char storeDigit[];
+	char storeDigit[10];
 
 	for (digit = '0'; digit <= 9; digit++)
+	{
 		storeDigit [digit] = digit;
+	}
 		putchar(storeDigit);
 
 	for (digit = 'a'; digit <= 'f'; digit++)
+	{
 		putchar(digit);
-
+	}
 	putchar('\n');
 	return (0);
 }
