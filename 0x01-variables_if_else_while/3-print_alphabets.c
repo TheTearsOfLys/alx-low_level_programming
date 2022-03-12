@@ -15,10 +15,10 @@ int main(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		putchar(alpha);
-
-		char upperCase = toupper(alpha);
-
-		putchar(upperCase);
+	}
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+	{
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
