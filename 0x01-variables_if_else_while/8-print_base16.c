@@ -9,14 +9,11 @@
 int main(void)
 {
 	char digit;
-	char storeDigit[10];
-
-	for (digit = '0'; digit <= 9; digit++)
+	
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		storeDigit [digit] = digit;
+		putchar(digit);
 	}
-		putchar(storeDigit);
-
 	for (digit = 'a'; digit <= 'f'; digit++)
 	{
 		putchar(digit);
