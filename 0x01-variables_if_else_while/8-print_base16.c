@@ -17,7 +17,7 @@ int main(void)
 
 	for (digit = 'a'; digit <= 'f'; digit++)
 	{
-		putcher(digit);
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
