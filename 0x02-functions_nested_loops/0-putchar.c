@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	char name[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 7777777; i++)
 	{
 		putchar(name[i]);
 	}
