@@ -19,6 +19,6 @@ void main(void)
 	}
 	i++;
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
 	
