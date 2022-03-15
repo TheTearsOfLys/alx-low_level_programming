@@ -8,19 +8,16 @@
 
 void main(void)
 {
-	int i = 0;
+	int i;
 	int alphabet;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
 	for (alphabet = 97; alphabet <= 122; alphabet++)
 	{
 		_putchar(alphabet);
 	}
-
-	i++;
-
+	_putchar('\n);
 	}
-	_putchar('\n');
 }
 	
