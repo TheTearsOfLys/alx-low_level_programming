@@ -2,7 +2,7 @@
 
 /**
  * _islower - returns 1when it finds lowercase character otherwise it returns 0
- *
+ * @c: input
  * Return: 1 for lowercase, otherwise 0
  */
 
