@@ -8,10 +8,10 @@
 
 void main(void)
 {
-	int i = 1;
+	int i = 0;
 	int alphabet = 97;
 
-	while (i < 11)
+	while (i < 10)
 	{
 	for (alphabet = 97; alphabet < 123; alphabet++)
 	{
