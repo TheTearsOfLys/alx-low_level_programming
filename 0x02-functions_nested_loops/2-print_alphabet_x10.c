@@ -3,13 +3,12 @@
 /**
  * print_alphabet_x10 - prints 10x the alphabet
  *
- * Return: void.
+ * Return: Always 0
  */
 
 void main(void)
 {
-	int i;
-	int alphabet;
+	int i; alphabet;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -17,7 +16,7 @@ void main(void)
 	{
 		_putchar(alphabet);
 	}
-	_putchar('\n);
+	_putchar('\n');
 	}
 }
 	
