@@ -6,7 +6,7 @@
  * Return: 1 for positive and -1 for negative, 0 for zero 
  */
 
-int print_sign(void)
+int print_sign(int n)
 {
 	if(n == 0)
 	{
