@@ -1,30 +1,30 @@
 #include "main.h"
 
 /**
- *print_diagonal - prints a line n chars long.
- *@n: number of \.
+ *print_square - prints square of size size.
+ *@size: size of square.
  *
  *Return: void.
  */
 
-void print_diagonal(int n)
+void print_square(int size)
 {
-	int i, space;
+	int i, j;
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
+		for (i = 1; i <= size; i++)
 		{
-			for (space = 0; space < i; space++)
+			_putchar('#');
+			for (j = 1; j < size; j++)
 			{
-				_putchar(' ');
+				_putchar('#');
 			}
-			_putchar(92);
-			_putchar('\n');
+		_putchar('\n');
 		}
 	}
 }
