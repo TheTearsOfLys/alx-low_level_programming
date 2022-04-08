@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	
-	array = malloc(sizeof(char) * size);
+	array = malloc(sizeof(char) * size); 
 	if (array == NULL)//hits null char at the end of string?
 	{
 		return (NULL);
@@ -27,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	while (ArrayPosition < size)
 	{
 		array[ArrayPosition] = c; //loop through array until '\0'
-		i++;
+		ArrayPosition++;
 	}
 	return (array);
 }
