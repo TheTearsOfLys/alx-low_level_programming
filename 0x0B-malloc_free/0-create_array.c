@@ -19,14 +19,14 @@ char *create_array(unsigned int size, char c)
 	}
 	
 	array = malloc(sizeof(char) * size); 
-	if (array == NULL)//hits null char at the end of string?
+	if (array == NULL)/*hits null char at the end of string?*/
 	{
 		return (NULL);
 	}
 	ArrayPosition = 0;
 	while (ArrayPosition < size)
 	{
-		array[ArrayPosition] = c; //loop through array until '\0'
+		array[ArrayPosition] = c; /*loop through array until '\0'*/
 		ArrayPosition++;
 	}
 	return (array);
