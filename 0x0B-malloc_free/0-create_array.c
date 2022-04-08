@@ -17,8 +17,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	array = malloc(sizeof(char) * size);/*allocate memory
-					      the size of one char x size of array*/
+	array = malloc(sizeof(char) * size);/**
+					      *allocate memory
+					      *the size of one char x size of array
+					     **/
 	if (array == NULL)/*hits null char at the end of string?*/
 	{
 		return (NULL);
